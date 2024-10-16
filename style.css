@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+nav{
+    display:flex;
+    height:80px;
+    background-color: blue;
+    position:sticky;
+    align-items:center;
+    justify-content:space-between;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+}
+nav ul li{
+    display:inline-block;
+    color:purple;
+    list-style:none;
+    margin:20px;
+    font-size:17px;
+}
+nav ul li a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:red;
+}
+nav h3{
+    margin-left:20px;
+    font-size:60px;
+    color:white;
+    font-family:algerian;
+    font-weight:lighter;
+}
+.active{
+    color:white;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color:wheat;
+}
+section{
+    display:flex;
+    background-color:url(./images/banana.jpg);
+    width:100%;
+    height:fit-content;
+    align-items:center;
+    height:400px;
+    background-position:center;
+    backgroung-repeat:no repeat;
+    justify-content:space-around;
+}
+section h1{
+    color:teal;
+    font-size:40px;
+    font-weight:bold;
+}
+.main{
+    display:flex;
+    max-height:80%;
+}
+.main.items{
+    flex-direction:column;
+    border:5px solid red;
+    padding:2%;
+    margin:15px;
+}
+.main{
+    color:white;
+    border:2px dashed red;
+    background-color:red;
+    font-size:20px;
+    text-align:center;
+}
+.main p{
+    font-size:12px;
+    padding:15px;
+    color:violet;
+}
+css
